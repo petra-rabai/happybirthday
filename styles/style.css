@@ -4,7 +4,36 @@ body {
   border: 10px solid rgb(255, 204, 0);
 
 }
-
+#aquarius{
+  margin-bottom: 10px;
+}
+#air{
+  margin-bottom: 10px;
+}
+#rabbit{
+  margin-bottom: 10px;
+}
+#wood{
+  margin-bottom: 10px;
+}
+#cat{
+  margin-bottom: 10px;
+}
+#dragon{
+  margin-bottom: 10px;
+}
+#uranus{
+  margin-bottom: 10px;
+}
+#jaws{
+  margin-bottom: 10px;
+}
+li{
+  margin-bottom: 10px;
+}
+h5{
+  color:rgb(8, 59, 102);
+}
 #header-img {
   float: left;
   border: 2px solid rgb(8, 59, 102);
