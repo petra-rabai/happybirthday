@@ -2,37 +2,36 @@ body {
   display: block;
   background-color: rgb(223, 210, 194);
   border: 10px solid rgb(255, 204, 0);
-
 }
-#aquarius{
+#aquarius {
   margin-bottom: 10px;
 }
-#air{
+#air {
   margin-bottom: 10px;
 }
-#rabbit{
+#rabbit {
   margin-bottom: 10px;
 }
-#wood{
+#wood {
   margin-bottom: 10px;
 }
-#cat{
+#cat {
   margin-bottom: 10px;
 }
-#dragon{
+#dragon {
   margin-bottom: 10px;
 }
-#uranus{
+#uranus {
   margin-bottom: 10px;
 }
-#jaws{
+#jaws {
   margin-bottom: 10px;
 }
-li{
+li {
   margin-bottom: 10px;
 }
-h5{
-  color:rgb(8, 59, 102);
+h5 {
+  color: rgb(8, 59, 102);
 }
 #header-img {
   float: left;
@@ -46,24 +45,46 @@ h5{
 
 @media screen and (max-width: 800px) {
   #header-img {
-    max-width: 20%;
+    max-width: 30%;
   }
 
   .btn {
     display: none;
   }
 
-  h2 {
-    font-size: 3vw;
-    text-align: center;
-  }
-
   .accordion {
     font-size: 3vw;
+    margin-bottom: 10px;
   }
 
   p {
     font-size: 2.2vw;
+  }
+  li {
+    font-size: 2.2vw;
+    margin-bottom: 10px;
+  }
+
+  h5 {
+    font-size: 3vw;
+  }
+
+  #jaws {
+    max-width: 90px;
+    max-height: 90px;
+    margin-bottom: 15px;
+  }
+
+  #soundcloud {
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 10px;
+  }
+
+  #spotify {
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 10px;
   }
 
   #myImg {
@@ -73,22 +94,49 @@ h5{
   #lightbox-section:img {
     max-width: 100px;
   }
-
+  #aquarius {
+    max-width: 60px;
+    max-height: 60px;
+  }
+  #air {
+    max-width: 60px;
+    max-height: 60px;
+  }
+  #rabbit {
+    max-width: 60px;
+    max-height: 60px;
+  }
+  #wood {
+    max-width: 60px;
+    max-height: 60px;
+  }
+  #cat {
+    max-width: 60px;
+    max-height: 60px;
+  }
+  #dragon {
+    max-width: 60px;
+    max-height: 60px;
+  }
+  #uranus {
+    max-width: 60px;
+    max-height: 60px;
+  }
 }
 
-@media screen and (max-width: 1320px){
- #myTopnav{
-   margin-right: 90px;
- }
- .btn{ 
-   margin-right: -20px;
- }
+@media screen and (max-width: 1320px) {
+  #myTopnav {
+    margin-right: 90px;
+  }
+  .btn {
+    margin-right: -20px;
+  }
 
- h1{
-   margin-right: 100px;
-   margin-left: -100px;
-   text-align: center;
- }
+  h1 {
+    margin-right: 100px;
+    margin-left: -100px;
+    text-align: center;
+  }
 }
 
 #header {
@@ -99,7 +147,6 @@ h5{
 
 #myImg {
   max-width: 300px;
-
 }
 
 .nav {
@@ -348,7 +395,7 @@ p {
   }
 }
 
-.row>.column {
+.row > .column {
   padding: 0 8px;
 }
 
