@@ -147,6 +147,12 @@ h5 {
   }
 }
 
+@media screen and (max-width:375px){
+  #header{
+    padding-bottom: 80px;
+  }
+}
+
 #header {
   box-shadow: 5px 5px 5px 5px rgb(8, 59, 102);
   margin: 15px;
